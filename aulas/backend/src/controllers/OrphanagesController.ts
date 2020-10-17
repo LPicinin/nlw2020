@@ -31,7 +31,7 @@ export default {
             about,
             instructions,
             opening_hours,
-            open_on_weekends,
+            open_on_weekends: open_on_weekends === 'true',
             images
         }
 
@@ -47,6 +47,8 @@ export default {
                 path: Yup.string().required()
             }))
         })
+
+        //const finalData = schema.cast(data)//não usou pq não lembrou mais pode ser interessante
 
         await schema.validate(data, {
             abortEarly: false
