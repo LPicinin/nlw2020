@@ -24,5 +24,5 @@ export default function App() {
 }
 
 
-//39:09
-//https://nextlevelweek.com/episodios/omnistack/5/edicao/3?utm_source=convertkit&utm_medium=email&utm_campaign=NLW3+Workshops&utm_term=Leads+OmniStack&utm_content=Workshop+5
+//53:18
+//aula5
